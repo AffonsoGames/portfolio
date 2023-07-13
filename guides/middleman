@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Calvin Middleman Guide</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+
+<body>
+<div>	
+	<h1 style="font-family: 'Raleway', serif;text-align: center">Cal's Guides</h1>
+	<h2 style="font-family: 'Raleway', serif;text-align: center">Middleman</h2>
+</div>
+<div>
+	<h3 style="font-family: 'Raleway', serif;text-align: left">General</h3>
+	<p style="font-family: 'Raleway', serif;text-align: left">A middleman is a reputable third party in a transaction who is there to ensure the quality and security of a transaction. A middleman in the context of MC-Market typically has approximately 50 reputation, and holds one or both items, verifies the validity then forwards the items after the transaction is completed. A middleman will usually have a thread up in the "Middleman" section. All middleman should have a terms of service voiding them of any liability in the transaction, else they put themselves at risk. The majority of middlemen will not hold money in PayPal as it leaves them at risk for chargebacks. Deals that use a middleman will usually be held on MCMarket, though if they are not, the middleman will verify the identity of the users in the transaction, typically through a PM.</p>
+</div>
+<div>
+	<h3 style="font-family: 'Raleway', serif;text-align: left">Minecraft Accounts</h3>
+	<p style="font-family: 'Raleway', serif;text-align: left">1) Check the thread, ensure the account is linked.<br>
+2) Once receiving the login, login to the account via mojang and verify the username is correct.<br>
+3) Log in to the email, verify the information is correct.<br>
+4) If applicable, Sign in via the Minecraft launcher and verify the presence of the cape(s).<br>
+<br>
+		<i>Securing</i><br>
+1) Email First,  check and remove any 2 factor authentication methods. Change the backup codes to the account. Change the password (10+ Characters). For extra security, add an email of yours as a backup email.
+<br>2) Mojang next, change the password and security questions to the same thing 3 times (10+ Characters).
+<br>
+<br>Once the other party buying the account has sent the payment, send the other party privately this information.</p>
+</div>
+<div>
+	<h3 style="font-family: 'Raleway', serif;text-align: left">Fortnite Accounts</h3>
+	<p style="font-family: 'Raleway', serif;text-align: left">
+1) Check the thread, see what items are on the account.<br>
+2) Log in to the account and verify the presence of all the items, v-bucks and/or stats.<br>
+3) Log in to the email, verify it is correct.<br>
+<br>
+		<i>Securing</i>
+<br>1) Change the password to the Epic Games Account (10+ Characters). Remove 2FA and replace with your own email.
+<br>2) Email now, check and remove any 2 factor authentication methods. Change the backup codes to the account. Change the password (10+ Characters).
+<br><br>
+Once the other party buying the account has sent the payment, send the other party privately this information.</p>
+</div>
+<div>
+	<h3 style="font-family: 'Raleway', serif;text-align: left">Other Information</h3>
+	<p style="font-family: 'Raleway', serif;text-align: left">For deals not listed, use a similar process of verifying authenticity, removing 2FA systems and changing the login info. Make sure to have a solid thread design and terms of service to make sure you both get clients and those clients don't screw you over. Keep your fees below 10% of the transactional cost, if you do fees. Inform your clients if you see any risks and be very communicative. Generally, just be respectful and insightful to your clients, be a neutral party and you are sure to see great results!</p>
+	<p style= "color:#727272; font-family: 'Raleway'; serif;text-align: center"><br><br>A public service by Calvin Creative. <a href="https://mc.mk/members/17892">@Cal on MCM.</a></p>
+</div>
+</body>
+</html>

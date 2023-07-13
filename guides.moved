@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cal's Guides</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+</head>
+
+<body>
+	<div>
+		<h1 style="font-family: 'Raleway', serif;text-align: center">Cal's Guides</h1>
+		<h2 style="font-family: 'Raleway', serif;text-align: center">Table of Contents</h2>
+	</div>
+	<div>
+		<p style="font-family: 'Raleway', serif;textalign: center"><b>1.</b> <a href="/guides/middleman">Middleman</a></p>
+		<p style="font-family: 'Raleway', serif;textalign: center"><b>2.</b> <a href="/guides/mickpleasefix">Problems With MCM</a></p>
+		<p style="font-family: 'Raleway', serif;textalign: center"><b>3.</b> <a href="/guides/server">How to Start a Server</a></p>
+	</div>
+<p style= "color:#727272; font-family: 'Raleway'; serif;text-align: center"><br><br>A public service by Calvin Creative. <a href="https://mc.mk/members/17892">Cal on MCM.</a></p>
+</body>
+</html>
