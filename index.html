@@ -20,26 +20,58 @@
     <div id="player" style="position: fixed"></div>
     <div class="loader"></div>
 	
-	
+
+	/* Estilo da animação de onda */
+@keyframes wave-animation {
+    0% {
+        margin-left: 0;
+    }
+    100% {
+        margin-left: -1600px; /* Ajuste esse valor de acordo com a largura da sua onda */
+    }
+}
+
+/* Estilize a div que conterá a animação de onda */
+#wave-container {
+    width: 100%;
+    height: 150px; /* Ajuste a altura da onda conforme necessário */
+    position: relative;
+    overflow: hidden;
+}
+
+/* Estilize a div que representa a onda */
+.wave {
+    background-image: url('caminho/para/onda.png'); /* Substitua pelo caminho da imagem da sua onda */
+    width: 3200px; /* Ajuste esse valor para a largura total da onda (deve ser maior que a largura da tela) */
+    height: 150px; /* Ajuste a altura da onda conforme necessário */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: wave-animation 8s linear infinite; /* Ajuste a velocidade da animação conforme necessário */
+}
 	
     <div class="grid">
-        <section id="hero">
-            <div id="particles-js"></div>
-            <div class="center">
-                <div class="hero__calvin">
-                    <img src="img/calvin.png" alt="" class="hero__calvin--img">
-                    <h1 class="hero__calvin--text">
-                        <span class="typer" data-words="AffonsoGames" data-colors="#333" data-delay="150" data-deleteDelay="7000"></span>
-                    </h1>
-                </div>
-                <div class="hero__iam">
-                    <h2>Eu sou 
-                        <span class="hero__iam--text"></span>
-                    </h2>
-                </div>
-            </div>
-			
-        </section>
+<section id="hero">
+    <div id="particles-js"></div>
+    <div class="center">
+        <div class="hero__calvin">
+            <img src="img/calvin.png" alt="" class="hero__calvin--img">
+            <h1 class="hero__calvin--text">
+                <span class="typer" data-words="AffonsoGames" data-colors="#333" data-delay="150" data-deleteDelay="7000"></span>
+            </h1>
+        </div>
+        <div class="hero__iam">
+            <h2>Eu sou 
+                <span class="hero__iam--text"></span>
+            </h2>
+        </div>
+    </div>
+    
+    <!-- Div que conterá a animação de onda -->
+    <div id="wave-container">
+        <div class="wave"></div>
+    </div>
+</section>
 		
         <section id="footer">
 		
