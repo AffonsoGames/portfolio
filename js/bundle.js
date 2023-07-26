@@ -1,3 +1,19 @@
+function ampliarImagem(container) {
+  const imagemAmpliada = container.querySelector('.imagemAmpliada');
+  imagemAmpliada.classList.add('ampliada');
+}
+
+function desampliarImagem(container) {
+  const imagemAmpliada = container.querySelector('.imagemAmpliada');
+  imagemAmpliada.classList.remove('ampliada');
+}
+
+
+
+
+
+
+
 ! function(t) {
     var n = {};
 
