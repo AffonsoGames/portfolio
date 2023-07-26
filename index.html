@@ -37,7 +37,29 @@
             </div>
 			
         </section>
-		
+
+	    function ampliarImagem(container) {
+  const imagemAmpliada = container.querySelector('.imagemAmpliada');
+  const overlay = document.createElement('div');
+  overlay.classList.add('overlay');
+
+  // Função para exibir a imagem em tela cheia
+  overlay.innerHTML = `<img src="${imagemAmpliada.src}" class="ampliada"> <span class="botao-fechar" onclick="fecharImagem()">X</span>`;
+  document.body.appendChild(overlay);
+  overlay.style.display = 'block';
+
+  // Impede que o clique no contêiner pai seja propagado para fechar a imagem
+  container.onclick = function (event) {
+    event.stopPropagation();
+  };
+}
+
+function fecharImagem() {
+  const overlay = document.querySelector('.overlay');
+  overlay.style.display = 'none';
+}
+
+	    
         <section id="footer">
 		
 <style>
